@@ -3,3 +3,8 @@ config.yaml
 env/
 .vagrant/
 config.vagrant.yaml
+
+.venv/
+build/
+dist/
+*.egg-info/
