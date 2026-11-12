@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gavel-ranking"
+version = "0.1.0"
+description = "Ranking algorithms for pairwise judging from Gavel"
+readme = "README.package.md"
+requires-python = ">=3.12"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE.txt"]
+authors = [{name = "Anish Athalye"}]
+dependencies = ["numpy>=1.26.4", "scipy>=1.12"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Upstream Gavel" = "https://github.com/techx/gavel"
+"Design article" = "https://anishathalye.com/designing-a-better-judging-system/"
+
+[tool.setuptools]
+packages = ["gavel_ranking"]
