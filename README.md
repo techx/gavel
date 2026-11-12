@@ -2,6 +2,9 @@
 
 **Gavel** is a project expo judging system.
 
+For Python applications that need Gavel's pairwise ranking model, see the
+[Gavel Ranking library](README.package.md).
+
 Gavel was originally built for HackMIT and first used at HackMIT 2015. It has
 been used by [dozens][users] of other events since then.
 
