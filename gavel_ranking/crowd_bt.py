@@ -1,6 +1,6 @@
 # Copyright (c) 2015-2017 Anish Athalye (me@anishathalye.com)
 # Released under AGPLv3. See LICENSE.txt.
-# Moved into the standalone Python package on 2026-11-11.
+# Moved from gavel/crowd_bt.py into the standalone Python package on 2026-11-11.
 
 """Online Crowd-BT updates and information gain from Gavel."""
 
