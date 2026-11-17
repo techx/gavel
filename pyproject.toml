@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gavel-ranking"
-version = "0.1.0"
+version = "1.0.0"
 description = "Ranking algorithms for pairwise judging from Gavel"
 readme = "README.package.md"
 requires-python = ">=3.12"
